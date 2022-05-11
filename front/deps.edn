@@ -1,0 +1,7 @@
+{:deps {com.bhauman/figwheel-main {:mvn/version "0.2.15"}
+        cljs-http/cljs-http {:mvn/version "0.1.46"}
+        reagent/reagent {:mvn/version "1.1.0"}
+        cljsjs/react {:mvn/version "17.0.2-0"}
+        cljsjs/react-dom {:mvn/version "17.0.2-0"}
+        cljsjs/react-datepicker {:mvn/version "2.3.0-0"}}
+ :paths ["src" "resources" "target"]}

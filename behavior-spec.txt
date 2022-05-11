@@ -1,0 +1,53 @@
+As an administrator
+I want to consult the system users
+So that I can verify each user has the correct role
+
+Given there are users defined
+When I consult the user overview
+Then I can see each user with their assigned role
+
+As an administrator
+I want to register new users
+So that other employees can use the system
+
+Given I am on the user overview
+when I open the new user form
+and fill in the new users credentials
+and fill in the new users role
+and I submit
+Then the new user should be created
+and the new user should be displayed in the overview
+
+As an administrator
+I want to deactivate users
+So that I can remove user access
+
+Given I am on the user overview
+When I click the button to deactivate a user
+Then the user should become deactivate
+
+As a read user
+I want to see an overview of customers
+So that I can see which customers are available in the system
+
+As a write user
+I want to create a new customer
+So that contracts can be created for this customer
+
+As a write user
+I want create a new contract in the system
+So that the contract can be managed
+
+As a read user
+I want to see an overview of all contracts
+So I can manage them
+
+As a read user
+I want to see an overview of monthly payments per customer
+So I can create invoices
+
+As a read user
+I want to see an overview of yearly costs per customer
+So I can use these numers in communication with the client
+
+simulation?
